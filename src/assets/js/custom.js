@@ -159,9 +159,4 @@ function init_plugins() {
 
     });
 
-
-
-
-
-
 }

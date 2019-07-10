@@ -3,8 +3,16 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { NopagefoundComponent } from '../pages/nopagefound/nopagefound.component';
+import { RouterModule } from '@angular/router';
+//directiva para el uso de pipes, ngfor, ngIf
+import { CommonModule } from '@angular/common';
 
 @NgModule({
+    imports:[
+     RouterModule,
+     CommonModule
+    ],
+     
    declarations:[ 
      HeaderComponent,
      SidebarComponent,
